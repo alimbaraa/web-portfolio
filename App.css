@@ -1,0 +1,135 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between items and language switcher */
+    align-items: center; /* Center items vertically */
+    background-color: #333; /* Background color */
+    padding: 1rem; /* Padding around the nav */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+        display: flex; /* Display list items in a row */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+    justify-content: center;
+    flex-grow: 1;
+}
+
+nav ul li {
+    margin-right: 20px; /* Spacing between items */
+}
+
+nav a {
+    color: white; /* Text color */
+        text-decoration: none; /* Remove underline */
+}
+
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+#hero {
+    padding: 4rem;
+    text-align: center;
+    background: #f9f9f9; /* Light background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+
+#projects {
+    padding: 20px;
+    text-align: center;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust size for 2x2 or 3x3 */
+    gap: 20px; /* Space between items */
+}
+
+.project-item {
+    border: 1px solid #ccc; /* Optional border for items */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px;
+    background-color: #f9f9f9; /* Background color */
+    transition: transform 0.3s; /* Animation for hover effect */
+}
+
+.project-item img {
+    width: 100%; /* Make images responsive */
+    height: auto;
+    border-radius: 8px 8px 0 0; /* Rounded corners for images */
+}
+
+.project-item:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Skills */
+#skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+#skills li {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Additional Styles */
+
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    background: #f9f9f9; /* Light background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+    margin-bottom: 2rem; /* Spacing between sections */
+}
+
+.project:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    transition: transform 0.3s; /* Smooth transition */
+}
+
+/* Add other styles as needed */
