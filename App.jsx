@@ -24,7 +24,7 @@ const App = () => {
           Connect with me on <a href="https://github.com/alimbaraa">GitHub</a>.
         </p>
         <p>
-          Resume: <a href="https://docs.google.com/document/d/1GFuO4h4JRVxo1e3I0WLrbHB6HPHM65Zv/edit?usp=drive_link&ouid=110799324895784122426&rtpof=true&sd=true">Resume</a>.
+          Resume: <a href="https://drive.google.com/file/d/1f9inBVa732rPAF4dUBWVmNjAnDIqiMn_/view?usp=sharing">Resume</a>.
         </p>
       </Section>
     </div>
